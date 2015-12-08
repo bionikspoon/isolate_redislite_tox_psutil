@@ -23,7 +23,14 @@ class PyTest(TestCommand):
         import sys
 
         errno = pytest.main(self.test_args)
+        self.handle_exit()
         sys.exit(errno)
+
+    @staticmethod
+    def handle_exit():
+        import atexit
+
+        atexit._run_exitfuncs()
 
 
 with open('README.rst') as readme_file:
