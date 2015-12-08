@@ -39,7 +39,7 @@ setup(  # :off
     name='sample_module',
     version='0.1.0',
     description='Isolating an issue with Redislite, Tox, and psutil.',
-    long_description='\n\n'.join([readme, __doc__]),
+    long_description=readme,
     author='Manu Phatak',
     author_email='bionikspoon@gmail.com',
     url='https://github.com/bionikspoon/isolate_redislite_tox_psutil',

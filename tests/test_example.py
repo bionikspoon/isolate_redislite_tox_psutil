@@ -1,12 +1,5 @@
 #!/usr/bin/env python
 # coding=utf-8
-
-"""
-test_example
-------------
-
-Tests for `sample_module.example` module.
-"""
 from sample_module.example import redis_cache
 
 
