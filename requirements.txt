@@ -4,8 +4,8 @@
 #
 #    pip-compile requirements.in
 #
-jinja2==2.8               # via redislite
+-e git+git://github.com/bionikspoon/redislite.git@patch-1#egg=redislite
+jinja2==2.8
 markupsafe==0.23          # via jinja2
-psutil==3.3.0             # via redislite
-redis==2.10.5             # via redislite
-redislite==3.0.271
+psutil==3.3.0
+redis==2.10.5
