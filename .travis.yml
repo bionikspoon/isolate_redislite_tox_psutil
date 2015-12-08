@@ -1,0 +1,25 @@
+# Config file for automatic testing at travis-ci.org
+# This file will be regenerated if you run travis_pypi_setup.py
+
+language: python
+
+python:
+  - "3.5"
+
+install:
+  - pip install tox
+
+env:
+  - TOXENV=py26
+  - TOXENV=py27
+  - TOXENV=py33
+  - TOXENV=py34
+  - TOXENV=py35
+  - TOXENV=pypy
+
+# command to run tests, e.g. python setup.py test
+script:
+  - tox -e $TOXENV
+  - coverage run --source=sample_module setup.py test
+
+
