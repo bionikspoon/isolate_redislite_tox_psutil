@@ -1,15 +1,29 @@
 ============================
 isolate_redislite_tox_psutil
 ============================
+    
++---------------------+------------------------------+
+| Branch              |  Status                      |
++=====================+==============================+
+| master              | |branch-master|              |
++---------------------+------------------------------+
+| working-solution    | |branch-working-solution|    |
++---------------------+------------------------------+
+| better-solution     | |branch-better-solution|     |
++---------------------+------------------------------+
+| best-solution       | |branch-best-solution|       |
++---------------------+------------------------------+
 
-.. image:: https://img.shields.io/github/downloads/bionikspoon/isolate_redislite_tox_psutil/total.svg
-    :target: https://github.com/bionikspoon/isolate_redislite_tox_psutil
-    :alt: Github Downloads
 
-.. image:: https://travis-ci.org/bionikspoon/isolate_redislite_tox_psutil.svg?branch=master
+.. |branch-master| image:: https://travis-ci.org/bionikspoon/isolate_redislite_tox_psutil.svg?branch=master
     :target: https://travis-ci.org/bionikspoon/isolate_redislite_tox_psutil?branch=master
     :alt: Build Status
+    
+.. |branch-working-solution| image:: https://travis-ci.org/bionikspoon/isolate_redislite_tox_psutil.svg?branch=working-solution
+    :target: https://travis-ci.org/bionikspoon/isolate_redislite_tox_psutil
 
-
-
-Isolating an issue with Redislite, Tox, and psutil.
+.. |branch-better-solution| image:: https://travis-ci.org/bionikspoon/isolate_redislite_tox_psutil.svg?branch=better-solution
+    :target: https://travis-ci.org/bionikspoon/isolate_redislite_tox_psutil
+    
+.. |branch-best-solution| image:: https://travis-ci.org/bionikspoon/isolate_redislite_tox_psutil.svg?branch=best-solution
+    :target: https://travis-ci.org/bionikspoon/isolate_redislite_tox_psutil
