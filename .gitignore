@@ -17,6 +17,3 @@ wheelhouse/
 
 # IDE
 .idea/
-
-# Other
-.requirements.diff
